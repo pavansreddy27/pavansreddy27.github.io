@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan S. Reddy's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: slideIn 0.5s forwards;
+            opacity: 0;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #35424a;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #35424a;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ff6347;
+            text-decoration: underline;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #ff6347;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pavan S. Reddy</h1>
+        <p>Email: <a href="mailto:pavansreddy26@gmail.com" style="color: #ffffff;">pavansreddy26@gmail.com</a> | Phone: 9481717816</p>
+        <p>Location: Srinivaspur, Kolar - 563135</p>
+        <p>LinkedIn Profile: <a href="#" style="color: #ffffff;">View Profile</a></p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a dedicated computer science student at Presidency University, specializing in artificial intelligence and machine learning. My studies have provided a solid foundation in Python programming, full-stack development, and data analytics. Through coursework and projects, I am well-prepared to tackle real-world challenges.</p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="send_email.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B.Tech in Computer Science Engineering</strong> (2021 – 2025) <br> Presidency University, Bangalore</li>
+            <li><strong>Pre-University</strong> (2019 – 2021) <br> Gangothri PU College, Srinivaspur - Secured 93.66%</li>
+            <li><strong>Secondary School</strong> (2019) <br> Sri Venu Vidhya Samasthe, Srinivaspur - Secured 92%</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming in Python, Java, and C</li>
+            <li>Familiar with AI & ML frameworks</li>
+            <li>Languages: Kannada, English, Telugu, Hindi</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><strong><a href="#" target="_blank">Fire Fighting Robot</a></strong> (2022) - Working Model using Arduino</li>
+            <li><strong><a href="#" target="_blank">IOT Based Health Monitoring System</a></strong> (2023) - Working Model using Raspberry Pi</li>
+            <li><strong><a href="#" target="_blank">Cyber Cafe Management System</a></strong> (2024) - Java Full Stack Website</li>
+            <li><strong><a href="#" target="_blank">Flight Ticket Booking System</a></strong> (2024) - Frontend Full Stack Website</li>
+            <li><strong><a href="#" target="_blank">Meme Generator</a></strong> (2024) - Generative AI Model</li>
+            <li><strong><a href="#" target="_blank">Grievance App</a></strong> (2024) - App using Android Studio</li>
+            <li><strong><a href="#" target="_blank">Customer Support Chatbot</a></strong> (2024) - Website using ML</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Publications</h2>
+        <p><a href="#" target="_blank">Customer Support Chatbot Using ML</a> - International Journal of Innovative Research in Computer and Communication Engineering</p>
+    </section>
+
+    <section>
+        <h2>Certificates</h2>
+        <ul>
+            <li><a href="#" target="_blank">AWS APAC - Solutions Architecture Job Simulation [Licensed]</a> from Forage</li>
+            <li><a href="#" target="_blank">Accenture North America - Coding: Development & Advance Engineering Job Simulation [Licensed]</a> from Forage</li>
+            <li><a href="#" target="_blank">Foundation of Data Analytics using Excel</a> by Presidency University</li>
+            <li><a href="#" target="_blank">Data Processing and Visualization by MATLAB</a></li>
+            <li><a href="#" target="_blank">Python Certification</a> by Kaggle</li>
+            <li><a href="#" target="_blank">AIML for Geodata Analysis</a> By ISRO</li>
+            <li><a href="#" target="_blank">Full Stack Java Development Certification</a> by Simplilearn</li>
+            <li><a href="#" target="_blank">Data Visualization with Python</a> by IBM in CognitiveClass</li>
+            <li><a href="#" target="_blank">Real Life 5 Machine Learning and Data Science Projects</a> by Udemy</li>
+            <li><a href="#" target="_blank">Machine Learning Certification</a> by Simplilearn</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Awards</h2>
+        <ul>
+            <li><strong>2022:</strong> Social Welfare Project by Presidency University - Group Leader, Top 10 selection</li>
+            <li><strong>2023:</strong> Health Monitoring Project - Group Leader, Top 15 among 150+ projects</li>
+            <li><strong>2012:</strong> State Championship in Karate - Winner</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pavan S. Reddy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
