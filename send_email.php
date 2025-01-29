@@ -1,12 +1,12 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $name = filter_var($_GET['name'], FILTER_SANITIZE_STRING);
     if ($name === false) {
         $name = "";
     }
-    $email = $_POST['email'];
-    $message = $_POST['message'];
+    $email = $_GET['email'];
+    $message = $_GET['message'];
     $to = "pavansreddy26@gmail.com"; // Your email address
     $subject = "Message from Portfolio Website";
 
