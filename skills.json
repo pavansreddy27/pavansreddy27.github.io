@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/?size=96&id=Rc0Xn5AtE8kX&format=gif"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/?size=96&id=GPfHz0SM85FX&format=gif"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/?size=96&id=Lb0GijAhiD3r&format=gif"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "AI/ML Frameworks",
+        "icon": "https://img.icons8.com/?size=96&id=hksmgkMI669m&format=gif"
+    },
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/?size=80&id=t5K2CR8feVdX&format=gif"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/?size=96&id=54087&format=png"
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+    },
+    {
+        "name": "Android",
+        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    }
+]
